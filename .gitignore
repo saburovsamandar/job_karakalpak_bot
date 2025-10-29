@@ -1,0 +1,43 @@
+# 🧠 Python build fayllari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧰 Virtual muhit
+venv/
+env/
+.venv
+# 🗂 IDE fayllari
+.vscode/
+.idea/
+idea/
+idea
+
+# 🧩 OS (Windows / macOS) fayllari
+.DS_Store
+Thumbs.db
+
+# 🔐 Maxfiy fayllar
+.env
+config.json
+
+# 🧾 Log va vaqtinchalik fayllar
+*.log
+*.tmp
+*.bak
+
+# 📦 Compiled / cache fayllar
+*.egg-info/
+dist/
+build/
+
+# 🧠 PyInstaller outputlari
+*.spec
+
+# 🔍 Test natijalari
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🚀 Railway yoki boshqa deploy sozlamalari
+*.sqlite3
